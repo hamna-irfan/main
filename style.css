@@ -40,3 +40,47 @@ nav {
 .nav-links a:hover {
   color: #fff;
 }
+
+.theme-btn {
+  background: #fff;
+  color: #24292e;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.theme-btn:hover {
+  background: #e1e4e8;
+}
+
+[data-theme="dark"] body,
+[data-theme="dark"] {
+  background: #0d1117;
+  color: #cdd9e5;
+}
+
+[data-theme="dark"] header {
+  background: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+[data-theme="dark"] .nav-links a {
+  color: #8b949e;
+}
+
+[data-theme="dark"] .nav-links a:hover {
+  color: #cdd9e5;
+}
+
+[data-theme="dark"] .theme-btn {
+  background: #21262d;
+  color: #cdd9e5;
+  border: 1px solid #30363d;
+}
+
+[data-theme="dark"] .theme-btn:hover {
+  background: #30363d;
+}
