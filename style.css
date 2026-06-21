@@ -1,6 +1,21 @@
+:root {
+  --bg: #f0f4f8;
+  --surface: #ffffff;
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --border: #e2e8f0;
+}
+
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
   padding: 2rem;
-  background: #f6f8fa;
+  background: var(--bg);
+  color: var(--text-primary);
+}
+
+h1 {
+  color: var(--accent);
 }
